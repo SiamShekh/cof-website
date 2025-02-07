@@ -1,5 +1,7 @@
 import Navbar from "./components/ui/Navbar";
-import chill from "./assets/strikers/chill.gif";
+// import chill from "./assets/strikers/chill.gif";
+import group_worker from "./assets/images/group_worker.webp";
+
 import mrX from "./assets/strikers/mrX.gif";
 import { CiFaceSmile } from "react-icons/ci";
 import { TbHeartRateMonitor } from "react-icons/tb";
@@ -9,6 +11,7 @@ import support from "../src/assets/strikers/support.gif";
 import logo from "../src/assets/COF LOGO.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import Roadmap from "./components/ui/Roadmap";
 
 const App = () => {
 
@@ -27,8 +30,18 @@ const App = () => {
           <Link className="bg-[#A2E900] px-6 py-2 rounded-md text-black font-medium text-xl" to={'https://t.me/COF_Miner_bot'}>Get Start</Link>
         </div>
         <div className="flex-[1] relative flex justify-center items-center">
-          <img src={chill} alt="chill gif" className="relative z-10" />
-          <div className="bg-yellow-500 size-52 lg:size-80 absolute blur-3xl z-0"></div>
+          {/* <img src={chill} alt="chill gif" className="relative z-10" /> */}
+          {/* <div className="bg-yellow-500 size-52 lg:size-80 absolute blur-3xl z-0"></div> */}
+          <div className="bg-white/10 rounded-2xl relative overflow-hidden">
+            <img src={group_worker} alt="group worker"  className="size-72"/>
+            <div className="p-3">
+              <p className="font-medium">Work with team</p>
+              <div className="flex items-center gap-3 mt-3">
+                <img className="size-8 rounded-full" src="https://cdn.pixabay.com/photo/2022/01/17/17/20/bored-6945309_1280.png"/>
+                <p className="font-medium">Alex Livingston</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -111,6 +124,8 @@ const App = () => {
           </div>
         </div>
       </div>
+
+      <Roadmap />
 
       <div id="contact" className="bg-[#43CF82]  w-full rounded-2xl flex justify-between p-5 flex-col-reverse lg:flex-row">
         <div className="flex-[1]">
