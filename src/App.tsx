@@ -25,7 +25,7 @@ const App = () => {
 
       <div id="home" className="flex justify-between items-center flex-col-reverse lg:flex-row">
         <div className="flex-[1]">
-          <p className="lg:text-9xl text-4xl font-bold text-white">Unlock free coin</p>
+          <p className="lg:text-9xl text-4xl font-bold text-white">COF Protocol</p>
           <p className="text-xl text-white/60 my-5">Discover the power of decentralized finance with our cutting-edge COF Miner.</p>
           <Link className="bg-[#A2E900] px-6 py-2 rounded-md text-black font-medium text-xl" to={'https://t.me/COF_Miner_bot'}>Get Start</Link>
         </div>
@@ -71,8 +71,8 @@ const App = () => {
 
       <div className="flex justify-between items-center lg:flex-row-reverse flex-col-reverse">
         <div className="flex-[1]">
-          <p className="lg:text-8xl text-5xl font-bold text-white">Unleash your crypyo</p>
-          <p className="text-xl text-white/60 my-5">Welcome to the EQ Crypto App, your all-in-one solution for decentralized finance. Explore our suite of features, including seamless farming, task management, friend invites</p>
+          <p className="lg:text-8xl text-5xl font-bold text-white">Unleash your crypto</p>
+          <p className="text-xl text-white/60 my-5">Welcome to the COF Miner App, your all-in-one solution for decentralized finance. Explore our suite of features, including seamless farming, task management, friend invites</p>
           <Link className="bg-[#A2E900] px-6 py-2 rounded-md text-black font-medium text-xl" to={'https://t.me/COF_Miner_bot'}>Explore More</Link>
         </div>
         <div className="flex-[1] relative flex justify-center items-center">
@@ -148,10 +148,10 @@ const App = () => {
           <div className="bg-[#FFFFFF17] p-2 rounded-xl w-full flex justify-between items-center flex-col">
             <p className="text-white font-medium text-xl">Connect with us</p>
             <div className="flex items-center gap-4 flex-wrap">
-              <Link to={'/'} className="">Instagram</Link>
-              <Link to={'/'} className="">Twitter</Link>
-              <Link to={'/'} className="">Discord</Link>
-              <Link to={'/'} className="">Telegram</Link>
+              <Link to={'mailto:coinsoffortunes@gmail.com'} className="">Email</Link>
+              <Link to={'https://x.com/COFCoins?s=09'} className="">Twitter</Link>
+              <Link to={'https://youtube.com/@coinsoffortune-n5d?si=CDfsCyyb2IDu5pt2'} className="">Youtube</Link>
+              <Link to={'https://x.com/COFCoins?s=09'} className="">Telegram</Link>
             </div>
           </div>
           <div className="bg-[#FFFFFF17] p-2 mt-4 rounded-xl w-full flex justify-between items-center flex-col">
