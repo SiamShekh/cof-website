@@ -12,6 +12,7 @@ import logo from "../src/assets/COF LOGO.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import Roadmap from "./components/ui/Roadmap";
+import Tokenamics from "./components/ui/Tokenamics";
 
 const App = () => {
 
@@ -33,11 +34,11 @@ const App = () => {
           {/* <img src={chill} alt="chill gif" className="relative z-10" /> */}
           {/* <div className="bg-yellow-500 size-52 lg:size-80 absolute blur-3xl z-0"></div> */}
           <div className="bg-white/10 rounded-2xl relative overflow-hidden">
-            <img src={group_worker} alt="group worker"  className="size-72"/>
+            <img src={group_worker} alt="group worker" className="size-72" />
             <div className="p-3">
               <p className="font-medium">Work with team</p>
               <div className="flex items-center gap-3 mt-3">
-                <img className="size-8 rounded-full" src="https://cdn.pixabay.com/photo/2022/01/17/17/20/bored-6945309_1280.png"/>
+                <img className="size-8 rounded-full" src="https://cdn.pixabay.com/photo/2022/01/17/17/20/bored-6945309_1280.png" />
                 <p className="font-medium">Alex Livingston</p>
               </div>
             </div>
@@ -126,7 +127,8 @@ const App = () => {
       </div>
 
       <Roadmap />
-
+      <Tokenamics />
+      
       <div id="contact" className="bg-[#43CF82]  w-full rounded-2xl flex justify-between p-5 flex-col-reverse lg:flex-row">
         <div className="flex-[1]">
           <p className="text-black lg:text-7xl text-3xl font-bold">Contact: For guide</p>
